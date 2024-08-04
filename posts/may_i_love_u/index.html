@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<link rel="stylesheet" href="/tailwind/style.css">
+
+
+<script src="https://unpkg.com/jquery@3.7.1/dist/jquery.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="/js/main.js"></script>
+
+</head>
+  <body 
+    class="bg-indigo-100 h-screen"
+  >
+    <div class="bg-white mx-52 h-screen max-h-full w-auto flex flex-col justify-between">
+      <header class="py-4 left-0 top-0 h-28 w-full"><div>
+  <h1 class="font-bold text-4xl text-center py-2">Notice to Sill | Mine Blog</h1>
+  <div class="flex flex-row justify-center gap-2 font-bold text-lg">
+    <div class="hover:underline hover:text-blue-500 cursor-pointer"><a href="/">Home</a></div>
+    <div class="hover:underline hover:text-blue-500 cursor-pointer"><a href="/categories">Categories</a></div>
+    <div class="hover:underline hover:text-blue-500 cursor-pointer"><a href="/tags">Tags</a></div>
+  </div>
+  <hr class="mx-48" />
+</div></header>
+      <div class="w-full h-full flex gap-2" style="max-height: calc(100vh - 2 * 7rem);">
+        <main class="flex-1 overflow-y-scroll no-scrollbar">
+<div class="ml-8 mr-30 my-4">
+  <div class="mb-3">
+    <button class="bg-blue-300 pr-2 flex items-center rounded" onclick="backButton()">
+      <img src="http://localhost:1313//icon/back.svg" width="16" height="16" />
+      Back
+    </button>
+  </div>  
+  
+  
+  <div class="text-xl font-bold mb-2 capitalize mt-2">May I Love U</div>
+  <div class="text-xs text-gray-500 mb-2 flex gap-2">
+    Sill
+    <p>2024-07-15 11:38:44</p>
+  </div> 
+  <div class="text-base text-balance normal-case"><p>Notice me, focus on me, look at me.<br>
+I always talk to myself about the following question: How should I proceed to become a successful man like my father or my grandfather? But I have never arrived at a final answer. I can&rsquo;t even emulate them when they were as young as I am now. Therefore, I promise myself that I will do my utmost to become a better man than they were.<br>
+I am captivated by the beauty of the world, and I draw strength from it. I find it fascinating to study philosophy, mathematics (especially algorithms), foreign languages, coding, and more. These hobbies help me to understand the world more clearly. I hope I can continue on this path.</p>
+</div>
+  <div class="text-xs mt-4 flex gap-2">
+    Categories: 
+    
+    
+    <p class="text-gray-500 hover:underline hover:text-blue-500 cursor-pointer"><a href="/categories/SomethingElse">SomethingElse</a></p>
+    
+  </div>
+  <div class="text-xs mt-2 flex gap-2">
+    Tags: 
+    
+    
+    <p class="text-gray-500 hover:underline hover:text-blue-500 cursor-pointer"><a href="/tags/guide">#guide</a></p>
+    
+    
+    <p class="text-gray-500 hover:underline hover:text-blue-500 cursor-pointer"><a href="/tags/see-u-tomorrow">#see u tomorrow</a></p>
+    
+  </div>
+</div>
+</main>
+        <div class="mt-1/2"><div class="w-30 h-auto rounded overflow-hidden shadow-lg mr-8 box-content">
+  <div class="px-6 py-4 box-content">
+    
+    <div class="flex flex-col items-center text-center">
+      <img src="http://localhost:1313//img/headimg.jpg" class="w-20 h-20 object-cover rounded" />
+      <p class="font-bold text-xl mt-2 uppercase">sill</p>
+      <p class="text-gray-500 text-sm mt-1">sill-dimitrios@outlook.com</p>
+    </div>
+    
+    <div class="flex flex-row justify-center mt-4 gap-2">
+      <img src="http://localhost:1313//icon/github-fill.svg" class="w-5 h-5 cursor-pointer" title="github" alt="github" />
+      <img src="http://localhost:1313//icon/tv.svg" class="w-5 h-5 cursor-pointer" title="Bangumi" alt="bangumi" />
+      <img src="http://localhost:1313//icon/weibo.svg" class="w-5 h-5 cursor-pointer" title="weibo" alt="weibo" />
+      <img src="http://localhost:1313//icon/wechat.svg" class="w-5 h-5 cursor-pointer" title="wechat" alt="wechat" />
+    </div>
+  </div>
+
+
+  
+  <div class="max-w-full"><html>
+
+<head>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+</head>
+
+<body>
+  <div id="a-player" class="max-w-full box-content"></div>
+  <script>
+    var ap = new APlayer({
+      element: document.getElementById("a-player"),
+      fixed: false,
+      autoplay: false,
+      mini: false,
+      theme: "F8F4FC",
+      loop: "all",
+      order: "random",
+      preload: "auto",
+      volome: .4,
+      mutex: true,
+      listFolded: true,
+      listMaxHeight: '100px',
+      lrcType: 0,
+      music: [
+        '01. My Dream.flac',
+        '09. Labyrinth Of Nothing Colors.flac',
+        '35. Wish.flac',
+        '39. See You.flac',
+      ].map($n => ({ name: $n, url: `/music/${$n}`, cover: '/icon/music.png' }))
+    })
+  </script>
+
+</body>
+
+</html></div>
+  
+
+</div></div>
+      </div>
+      <footer class="pt left-0 h-28 w-full"><div>
+  <hr class="mx-48"/>
+  <p class="text-center my-4 ">
+    Copyright 2024. All rights reserved.
+  </p>
+</div>
+</footer>
+    </div>
+  </body>
+</html>

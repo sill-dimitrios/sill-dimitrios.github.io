@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>See U Tomorrow on Gavyn | May I Love U</title>
+    <link>http://localhost:1313/tags/see-u-tomorrow/</link>
+    <description>Recent content in See U Tomorrow on Gavyn | May I Love U</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 15 Jul 2024 11:38:44 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/see-u-tomorrow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>May I Love U</title>
+      <link>http://localhost:1313/posts/may_i_love_u/</link>
+      <pubDate>Mon, 15 Jul 2024 11:38:44 +0800</pubDate>
+      <guid>http://localhost:1313/posts/may_i_love_u/</guid>
+      <description>Notice me, focus on me, look at me.&#xA;I always talk to myself about the following question: How should I proceed to become a successful man like my father or my grandfather? But I have never arrived at a final answer. I can&amp;rsquo;t even emulate them when they were as young as I am now. Therefore, I promise myself that I will do my utmost to become a better man than they were.</description>
+    </item>
+  </channel>
+</rss>

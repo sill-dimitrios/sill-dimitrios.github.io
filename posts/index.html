@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<link rel="stylesheet" href="/tailwind/style.css">
+
+
+<script src="https://unpkg.com/jquery@3.7.1/dist/jquery.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="/js/main.js"></script>
+
+</head>
+  <body 
+    class="bg-indigo-100 h-screen"
+  >
+    <div class="bg-white mx-52 h-screen max-h-full w-auto flex flex-col justify-between">
+      <header class="py-4 left-0 top-0 h-28 w-full"><div>
+  <h1 class="font-bold text-4xl text-center py-2">Notice to Sill | Mine Blog</h1>
+  <div class="flex flex-row justify-center gap-2 font-bold text-lg">
+    <div class="hover:underline hover:text-blue-500 cursor-pointer"><a href="/">Home</a></div>
+    <div class="hover:underline hover:text-blue-500 cursor-pointer"><a href="/categories">Categories</a></div>
+    <div class="hover:underline hover:text-blue-500 cursor-pointer"><a href="/tags">Tags</a></div>
+  </div>
+  <hr class="mx-48" />
+</div></header>
+      <div class="w-full h-full flex gap-2" style="max-height: calc(100vh - 2 * 7rem);">
+        <main class="flex-1 overflow-y-scroll no-scrollbar">
+  <h1>Posts</h1>
+  
+  
+    <h2><a href="/posts/meet_december_without_angle_again/">Meet december without angle again</a></h2>
+  
+    <h2><a href="/posts/may_i_love_u/">May I Love U</a></h2>
+  
+</main>
+        <div class="mt-1/2"><div class="w-30 h-auto rounded overflow-hidden shadow-lg mr-8 box-content">
+  <div class="px-6 py-4 box-content">
+    
+    <div class="flex flex-col items-center text-center">
+      <img src="http://localhost:1313//img/headimg.jpg" class="w-20 h-20 object-cover rounded" />
+      <p class="font-bold text-xl mt-2 uppercase">sill</p>
+      <p class="text-gray-500 text-sm mt-1">sill-dimitrios@outlook.com</p>
+    </div>
+    
+    <div class="flex flex-row justify-center mt-4 gap-2">
+      <img src="http://localhost:1313//icon/github-fill.svg" class="w-5 h-5 cursor-pointer" title="github" alt="github" />
+      <img src="http://localhost:1313//icon/tv.svg" class="w-5 h-5 cursor-pointer" title="Bangumi" alt="bangumi" />
+      <img src="http://localhost:1313//icon/weibo.svg" class="w-5 h-5 cursor-pointer" title="weibo" alt="weibo" />
+      <img src="http://localhost:1313//icon/wechat.svg" class="w-5 h-5 cursor-pointer" title="wechat" alt="wechat" />
+    </div>
+  </div>
+
+
+  
+  <div class="max-w-full"><html>
+
+<head>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+</head>
+
+<body>
+  <div id="a-player" class="max-w-full box-content"></div>
+  <script>
+    var ap = new APlayer({
+      element: document.getElementById("a-player"),
+      fixed: false,
+      autoplay: false,
+      mini: false,
+      theme: "F8F4FC",
+      loop: "all",
+      order: "random",
+      preload: "auto",
+      volome: .4,
+      mutex: true,
+      listFolded: true,
+      listMaxHeight: '100px',
+      lrcType: 0,
+      music: [
+        '01. My Dream.flac',
+        '09. Labyrinth Of Nothing Colors.flac',
+        '35. Wish.flac',
+        '39. See You.flac',
+      ].map($n => ({ name: $n, url: `/music/${$n}`, cover: '/icon/music.png' }))
+    })
+  </script>
+
+</body>
+
+</html></div>
+  
+
+</div></div>
+      </div>
+      <footer class="pt left-0 h-28 w-full"><div>
+  <hr class="mx-48"/>
+  <p class="text-center my-4 ">
+    Copyright 2024. All rights reserved.
+  </p>
+</div>
+</footer>
+    </div>
+  </body>
+</html>
